@@ -10,6 +10,6 @@ Scenario('test something', ({ I }) => {
   //I.seeElement({name: 'username'});
   I.fillField('username', username);
   I.fillField('password', secret(password));
-  I.click('submit', '#div.d-flex.justify-content-end');
+  I.click('Log In');
   pause(); 
 });
